@@ -1,0 +1,19 @@
+.nav-link {
+    color: rgb(122, 192, 10);
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(182, 82, 57)
+}
+
+.navbar-toggler {
+    background-color: rgb(68, 228, 121);
+}
+.navbar-toggler:hover {
+    background-color: rgb(207, 233, 112);
+}
+
+.sidebar {
+    color:rgb(236, 238, 204);
+}
+
