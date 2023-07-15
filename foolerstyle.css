@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(180deg, #4fbb8e 0%, #ECDD9D 100%);
+}
+
+.footer-text {
+    margin: 15px auto; 
+    font-family: 'Lato', serif;    
+    color:#4b5758;
+}
+
+.footer-link a:hover {
+    background-image: linear-gradient(
+        to right,
+        #212c94,
+        #750a70 50%,
+        #b93c0a 50%);
+
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-link a:before {
+    content: '';
+    background: #36a89f;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-link a:hover {
+    background-position: 0;
+}
+
+.footer-link a:hover::before {
+    width: 100%;
+
+}
+
+
+
+footer a {
+    text-decoration: none;
+    font-family: 'Lato', serif;
+    color:#4b5758;
+}
+
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .slide-text{
+        font-size: 2rem;
+    }
+}
