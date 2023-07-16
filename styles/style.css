@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+body {
+    font-family: 'Lobster', serif;
+    background: linear-gradient(222deg, #48982D 21%, #62C3DA 100%);
+}
+
+.sidebar {
+    background: linear-gradient(218deg, #98A21E 21%, #2d853b 100%);
+    border-radius: 11px;
+}
+
+
+.card {
+    background: #25a04a;
+    color: rgb(187, 187, 153);
+}
+
+
+.card-body,
+.card a {
+    text-decoration: none;
+    font-family: 'Lobster', serif; 
+    background: #32b359;
+    color: rgb(187, 187, 153);
+
+    
+}
+
+.slide-text {
+    font-size: 1.3rem;
+    margin: auto auto;
+}
+
+.inter-anime {
+    animation: myAnim 3s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .slide-text{
+        font-size: 2rem;
+    }
+}
