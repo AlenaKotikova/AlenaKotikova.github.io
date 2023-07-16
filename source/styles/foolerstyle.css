@@ -15,16 +15,13 @@ footer,
     background-image: linear-gradient(
         to right,
         #212c94,
-        #750a70 50%,
-        #b93c0a 50%);
+       );
 
-    background-size: 200% 100%;
-    background-position: -100%;
+    
     display: inline-block;
-    padding: 5px 0;
+    
     position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     transition: all 0.5s ease-in-out;
 }
 
