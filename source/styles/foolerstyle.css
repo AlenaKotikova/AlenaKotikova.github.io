@@ -14,12 +14,11 @@ footer,
 .footer-link a:hover {
     background-image: linear-gradient(
         to right,
-        #212c94,
-       );
+        #212c94,);
 
     
     display: inline-block;
-    
+   
     position: relative;
     
     transition: all 0.5s ease-in-out;
